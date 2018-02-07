@@ -40,8 +40,19 @@ numbers.pop() --> removes the last element
 * return the first index of value 10
       i1 = l1.index(10)
       print(i1)
-      
+
 #### index(value, startIndex)
 * how often is 10 in the list
+      def get_all_indices(l1, 10):
 
-      # get all indices with value 10
+* get all indices with value 10
+
+# 5.2.5: Concatenation and Replication
+      c1 = ['red', 'green']
+      c2 = ['blue', 'yellow']
+
+      colors = c1 + c2
+      print(colors) --> ['red', 'green', 'blue', 'yellow']
+
+### Concatenation
+      n = [0]* 100 --> [0, 0, 0, 0, ...]
