@@ -93,3 +93,9 @@ l1 is a list
 ### Each of these items have many properties that belong together.
 ### We need a data type to store these values.
 ## 7.1: A point in 2D, to be continued...
+
+### Project 4 Notes:
+* create a list of 10 strings (of 10 characters)
+* use function split, to get all the words
+* for finding in forward direction, use function "find"
+* backward direction: reverse the line, use find again
