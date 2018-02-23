@@ -28,10 +28,10 @@
 ### List Comprehension for Filter Pattern:
       [expression for <item> in <list> if <condition>]
 
-      *Get all values between 10 and 20: 10 < x < 20*
+      # Get all values between 10 and 20: 10 < x < 20
       positive = [x for x in mylist if 10<x<20]
 
-      *Get all square values between 10 and 20*
+      # Get all square values between 10 and 20
       sq = [x*x for x in mylist if 10<x<20]
 
 # 5.5: Tuples
