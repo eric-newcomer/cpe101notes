@@ -28,16 +28,16 @@
 ### List Comprehension for Filter Pattern:
       [expression for <item> in <list> if <condition>]
 
-      *Get all values between 10 and 20: 10 < x < 20*
+      # Get all values between 10 and 20: 10 < x < 20
       positive = [x for x in mylist if 10<x<20]
 
-      *Get all square values between 10 and 20*
+      # Get all square values between 10 and 20
       sq = [x*x for x in mylist if 10<x<20]
 
 # 5.5: Tuples
 ## Tuples are similar to lists, however once created, they can't be modified; tuples are immutable
       t = (1, 2, 3) == t = 1, 2, 3
-      *t is of type tuple*
+      # t is of type tuple
       x = t[2]
       t[2] = 144
 ### Note:

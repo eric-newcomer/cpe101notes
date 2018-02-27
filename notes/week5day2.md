@@ -1,5 +1,6 @@
 # 5.2.3: Removing an Element
 * Method pop(index) removes element at position index from the list
+
       numbers = [10, 20, 30]
       x = numbers.pop(1) --> [10, 30]
       numbers.pop(1) --> [10]

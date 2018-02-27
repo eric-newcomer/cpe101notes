@@ -5,6 +5,7 @@
 
 ### Count the number of vowels in a given string?
 * Use the membership operator
+
       vowels = 'aeiouAEIOU'
       count = 0
       for c in my_str:
@@ -14,6 +15,7 @@
 
 ### Convert all small numbers in a given string to capital letters
 * One way
+
       delta = ord('a') - ord('A')
       cstr = ''
       for c in my_str:
@@ -23,6 +25,7 @@
       print('6 convert upper: ', cstr)
 
 * Another Way
+
       clist = []
       for c in my_str:
           if ord('a') <= ord(c) <= ord('z'):
@@ -45,8 +48,11 @@
 ## 6.3-3: String Functions
 ### str.find(sub[, start[, end]])
 * return the lowest index in the string where substring *sub* is found within the slice s[start:end]
+
       position = str1.find('abc')
 * str.index(sub[, start[,end]])
+
       position = str1.index('abc')
 * str.isupper(sub[, start[, end]])
+
       value = str1.isupper()
