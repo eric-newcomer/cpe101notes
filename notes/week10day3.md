@@ -50,5 +50,10 @@ for each pixel, replace the values of (r, g, b) by the average of the color comp
                           cols[2]=cols[2]+image[y][x].b
           return Pixel(int(cols[0])/count), int(cols[1]/count)
 
-      def weigh():
-          
+      def get_weighted_function(p1, p2, weight):
+          r = p1.r * (2-weight) + p2.r * (weight-1)
+          # fully blurred + original image
+          # = partially blurred pixel
+
+      def getBlurredPixel(image, r, c, row_center, col_center, radius, reach):
+      dist = math.sqrt()
